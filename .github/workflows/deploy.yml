@@ -29,6 +29,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "fresh-site-01"
+          project: "pakrita"
           entrypoint: "main.ts"
           root: "."
